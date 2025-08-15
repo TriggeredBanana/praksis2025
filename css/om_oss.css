@@ -1,3 +1,22 @@
+/* Contact info icons */
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.contact-info a:hover .icon {
+    transform: scale(1.15);
+}
+
+/* Container styles and profile cards */
 .containers {
     max-width: 1100px;
     margin: 40px auto;
