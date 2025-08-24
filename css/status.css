@@ -1,0 +1,41 @@
+/* Dagbok-oppsett for status-siden */
+.diary {
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.event {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 32px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 18px 24px;
+}
+
+.event-date {
+  min-width: 110px;
+  font-size: 0.95em;
+  color: #646464;
+  font-weight: 500;
+  margin-right: 32px;
+  text-align: right;
+  padding-top: 2px;
+}
+
+.event-content {
+  flex: 1;
+}
+
+.event-title {
+  font-size: 1.15em;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+.summary {
+  font-size: 1em;
+  color: #444;
+  margin-top: 12px;
+}
