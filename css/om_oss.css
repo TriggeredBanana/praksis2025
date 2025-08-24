@@ -1,4 +1,4 @@
-/* Contact info icons */
+/* Kontaktinformasjon ikoner */
 .contact-info {
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@
     transform: scale(1.15);
 }
 
-/* Container styles and profile cards */
+/* Kontainer stil og profilkort */
 .containers {
     max-width: 1100px;
     margin: 40px auto;
