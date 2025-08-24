@@ -10,7 +10,7 @@ body {
 /* Navigasjonsmeny */
 nav {
     background-color: #2b2b2b;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 nav ul {
@@ -22,17 +22,26 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 5px;
 }
+
 
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 18px;
+    transition: background 0.2s, box-shadow 0.2s;
 }
 
+
 nav ul li a:hover {
-    text-decoration: underline;
+    background: rgba(255,255,255,0.12);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    border-radius: 18px;
+    text-decoration: none;
 }
 
 /* Sideinnhold */
