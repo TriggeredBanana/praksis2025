@@ -10,13 +10,20 @@
 <body>
 
     <nav>
-        <ul>
-            <li><a href="../index.html">Hjem</a></li>
-            <li><a href="/html/oppgavebeskrivelse.html">Oppgavebeskrivelse</a></li>
-            <li><a href="/html/om_oss.html">Om oss</a></li>
-            <li><a href="/html/om_tingtun.html">Om Tingtun</a></li>
-            <li><a href="/html/status.html">Status</a></li>
-        </ul>
+        <div class="nav-container">
+            <button class="hamburger-menu" id="hamburgerMenu" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Hjem</a></li>
+                <li><a href="/html/oppgavebeskrivelse.html">Oppgavebeskrivelse</a></li>
+                <li><a href="/html/om_oss.html">Om oss</a></li>
+                <li><a href="/html/om_tingtun.html">Om Tingtun</a></li>
+                <li><a href="/html/status.html">Status</a></li>
+            </ul>
+        </div>
     </nav>
 
     <div class="container">
@@ -60,6 +67,8 @@
                     </div>
             </div>
     </div>
+
+    <script src="/js/navigation.js"></script>
 
 </body>
 </html>
