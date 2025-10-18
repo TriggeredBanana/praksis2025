@@ -35,14 +35,75 @@
     <div class="container">
         <h1>Status 2</h1>
         <h3>Våre arbeidsoppgaver</h3>
-        <p>Som nevnt i status 1 inkluderer våre arbeidsoppgaver hos Tingtun å utvikle en ny nettside og nytt brukersystem for Testfest. Vi har gjort betydelige fremskritt med å koble databasen til systemet og implementert autorisering for innlogging. Arbeidet fortsetter med de ulike sidene som skal utvikles i React. I tillegg har vi mottatt nye krav og ønsker som må tilpasses, særlig knyttet til innlogging, tilgangsstyring og navigasjon.</p>
-        <h3>Utfordringer eller kjennetegn ved denne enheten (Domenekunnskap)</h3>
-        <p>Tingtun er en liten bedrift med få ansatte, noe som gjør at det er kort vei mellom idé og beslutning. Dette gir oss mulighet til rask progresjon, men krever også at vi tar selvstendig ansvar i utviklingsarbeidet. Prosjektet involverer samarbeid mellom flere organisasjoner, noe som innebærer at vi må forholde oss til ulike krav og standarder, særlig universell utforming og nasjonale retningslinjer for tilgjengelighet. Løsningene må derfor være både teknisk robuste, brukervennlige og inkluderende. Tilgangen til Tingtuns server har også krevd at vi setter oss grundig inn i eksisterende infrastruktur for å kunne jobbe sikkert og effektivt.</p>
+        <p>
+            Vi fortsetter med å bygge en ny versjon av Testfest med moderne frontend og et eget brukersystem. 
+            Til nå er det gjort betydelige fremskritt med å koble databasen til systemet og implementert autorisering for innlogging. <br> 
+            Siden forrige status har vi blant annet:
+        </p>
+        <ul>
+            <li>Fått tilgang til server og opprettet MariaDB database med tabeller.</li>
+            <li>Koblet applikasjonen til MariaDB og etablert databaseoppsett for brukere og roller.</li>
+            <li>Implementert innlogging med autentisering og autorisasjon (tilgangsstyring basert på rolle).</li>
+            <li>Utvidet Testfest nettsiden med nytt "Admin dashboard". Her er det lagt til rette for at admin kan opprette, redigere og slette brukere, samt ha en generell oversikt over brukere.</li>
+            <li>Startet utrulling av sentrale sider i React og jobbet med navigasjon/informasjonshierarki.</li>
+        </ul>
+
+        <h3>Utfordringer og domenekunnskap</h3>
+        <p>
+            Tingtun er en liten bedrift med få ansatte, noe som gjør at det er kort vei mellom idé og beslutning. 
+            Dette gir oss mulighet til rask progresjon, men krever også at vi tar selvstendig ansvar i utviklingsarbeidet. 
+            Prosjektet involverer samarbeid mellom flere organisasjoner, noe som innebærer at vi må forholde oss til ulike krav og standarder, særlig universell utforming og nasjonale retningslinjer for tilgjengelighet. 
+            Løsningene må derfor være både teknisk robuste, brukervennlige og inkluderende. 
+            Tilgangen til Tingtuns server har også krevd at vi setter oss grundig inn i eksisterende infrastruktur for å kunne jobbe sikkert og effektivt.
+        </p>
+
         <h3>Karakteristika ved bedriften som påvirker vårt arbeid</h3>
-        <p>Tingtun preges av fleksibilitet, samarbeid og innovasjon. Den åpne og eksperimentelle tilnærmingen gir oss frihet til å ta egne beslutninger, men fordrer samtidig til at vi er strukturerte og tar initiativ. God kommunikasjon og selvstendig problemløsning blir derfor essensielt. Vi har mottatt enkelte rammer for hvordan vi kan implementere funksjonalitet og utseende, med krav om både universell utforming og teknisk kvalitet.</p>
-        <h3>Hva har vi lært og utfordringer som ble møtt</h3>
-        <p>Vårt ansvar har omfattet flere tekniske oppgaver: installasjon av MariaDB på serveren, oppsett av database, utvikling av innloggingsfunksjonalitet samt brukerhåndtering. Dette har gitt verdifull erfaring med databasestruktur, terminal, serveradministrasjon og autentisering. Den største utfordringen har vært å konfigurere servertilgangen korrekt og sikre smidig kommunikasjon mellom database og applikasjon. Utviklingen av påloggingsløsningen krevde teknisk forståelse og godt teamarbeid for å ivareta krav til sikkerhet og brukervennlighet.</p>
-        <h3>Bidrag til bedriften og veien videre</h3>
-        <p>Målet med praksisprosjektet er å levere en komplett nettside og database som Tingtun kan ta i bruk for Testfest, med funksjonalitet tilpasset både produkteiere og testere.</p>
-        <p>Fremover vil vi fortsette utviklingen av både frontend og backend, gjennomføre grundig testing av løsningen, og vurdere muligheten for å integrere videre funksjonalitet som kan være ønskelig for Tingtun.</p>
+        <p>
+            Tingtun preges av fleksibilitet, samarbeid og innovasjon. 
+            Den åpne og eksperimentelle tilnærmingen gir oss frihet til å ta egne beslutninger, men fordrer samtidig til at vi er strukturerte og tar initiativ. 
+            God kommunikasjon og selvstendig problemløsning blir derfor essensielt. 
+            Vi har mottatt enkelte rammer for hvordan vi kan implementere funksjonalitet og utseende, med krav om både universell utforming og teknisk kvalitet.      
+        </p>
+
+        <h3>Hva vi har lært og utfordringer som ble møtt</h3>
+        <p>
+            Vårt ansvar har omfattet flere tekniske oppgaver: installasjon av MariaDB på serveren, oppsett av database, utvikling av innloggingsfunksjonalitet samt brukerhåndtering. 
+            Dette har gitt verdifull erfaring med databasestruktur, terminal, serveradministrasjon og autentisering. 
+            Den største utfordringen har vært å konfigurere servertilgangen korrekt og sikre smidig kommunikasjon mellom database og applikasjon. 
+            Utviklingen av påloggingsløsningen krevde teknisk forståelse og godt teamarbeid for å ivareta krav til sikkerhet og brukervennlighet.
+        </p>
+
+        <h3>Bidrag og veien videre</h3>
+        <p>
+            Målet med praksisprosjektet er å levere en komplett nettside og database som Tingtun kan ta i bruk for Testfest, med funksjonalitet tilpasset både produkteiere og testere.
+        </p>
+        <p>
+            Vi vil fortsette utviklingen av både frontend og backend, gjennomføre grundig testing av løsningen, og vurdere muligheten for å integrere videre funksjonalitet som kan være ønskelig for Tingtun.
+        </p>
+
+        <br>
+        <h3>Bilder</h3>
+        <p>For å se bildene i full størrelse, høyreklikk og velg "Åpne bilde i ny fane".</p>
+        <div class="images-container">
+            <div class="image-item">
+                <img src="../img/status2/opprett_bruker.png" alt="Admin: opprett bruker">
+                <p style="text-align: center; margin-top: 8px; font-style: italic; color: #666;">Admin – opprett bruker</p>
+            </div>
+            <div class="image-item">
+                <img src="../img/status2/rediger_bruker.png" alt="Admin: rediger bruker">
+                <p style="text-align: center; margin-top: 8px; font-style: italic; color: #666;">Admin – rediger bruker</p>
+            </div>
+            <div class="image-item">
+                <img src="../img/status2/admin_dashboard.png" alt="Admin dashboard">
+                <p style="text-align: center; margin-top: 8px; font-style: italic; color: #666;">Admin‑dashbord</p>
+            </div>
+            <div class="image-item">
+                <img src="../img/status2/mariaDB_database.png" alt="MariaDB databasestruktur">
+                <p style="text-align: center; margin-top: 8px; font-style: italic; color: #666;">MariaDB – databasestruktur</p>
+            </div>
+        </div>
     </div>
+
+    <script src="../js/navigation.js"></script>
+</body>
+</html>
